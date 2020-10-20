@@ -1,0 +1,34 @@
+book
+Joanne Rowling
+Harry Potter 
+1997
+1
+multivol
+John Ronald Tolkien
+The Lord of the Rings
+1
+1954
+0
+manual
+Merzlyak
+Algebra 9
+math
+2015
+1
+multivol
+Ivan Franko
+Collecting of Works
+5
+2010
+0
+book
+Mykhailo Kotsiubynsky
+Shadows of Forgotten Ancestors
+1911
+1
+magazine
+Anna Wintour
+Vogue
+moda
+1949
+1
