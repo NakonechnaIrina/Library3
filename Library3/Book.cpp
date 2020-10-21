@@ -22,7 +22,7 @@ Book::Book(string a, string t, int y, bool av)
 }
 
 
-Book::Book(const Book& b)
+Book::Book(const Book& b)//Copy
 {
 	
 	author = b.author;
