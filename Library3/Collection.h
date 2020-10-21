@@ -11,10 +11,10 @@ protected:
 	vector<Entity*> data;
 
 public:
-	virtual void print() = 0;//abstract
+	virtual void print() = 0;
 	//no implementation
 	virtual bool CreateFromFile(string path) = 0;
 	virtual void PrintToFile(string path) = 0;
-	//path -shlyah kudy pysaty
+	//path 
 };
 #endif

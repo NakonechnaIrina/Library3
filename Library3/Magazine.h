@@ -24,7 +24,7 @@ public:
 	//перевантаження оператора виводу
 	friend ostream& operator<<(ostream& os, Magazine& b)
 	{
-		//os could be cout could ofstream file
+
 		os << b.author << "\n" << b.title << "\n" << b.year << "\n" << b.available << "\n" << b.area;
 		return os;
 

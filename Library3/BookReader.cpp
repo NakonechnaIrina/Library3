@@ -55,10 +55,10 @@ Book* BookReader::ReadBook()
 		{
 			if (type == "multivol")
 			{
-				//fin>>s; do pershogo probilu
-				getline(fin, author);//full string to enter
-				//fin>>s; do pershogo probilu
-				getline(fin, title);//full string to enter
+				
+				getline(fin, author);
+			
+				getline(fin, title);
 				int num;
 				fin >> num;
 
@@ -73,10 +73,10 @@ Book* BookReader::ReadBook()
 			else {
 				if (type == "magazine")
 				{
-					//fin>>s; do pershogo probilu
-					getline(fin, author);//full string to enter
-					//fin>>s; do pershogo probilu
-					getline(fin, title);//full string to enter
+					
+					getline(fin, author);
+					
+					getline(fin, title);
 					string area;
 					getline(fin, area);
 

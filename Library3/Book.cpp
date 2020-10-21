@@ -22,10 +22,9 @@ Book::Book(string a, string t, int y, bool av)
 }
 
 
-Book::Book(const Book& b)//& - щоб передати саме цю адресу памяті, а не копію 
-	//const - забезпечує що цей параметр фукнція(метод чи окнстурткор) не має права змінити
+Book::Book(const Book& b)
 {
-	//dosput do poliv hoch i private bo toy samyy klas
+	
 	author = b.author;
 	title = b.title;
 	year = b.year;
